@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+<script src="Map.js"></script>
+<script src="food.js"></script>
+<script src="snake.js"></script>
+<script src="game.js"></script>
+<script>
+  var game=new Game();
+  game.gameStart();
+//  var m = new Map({color: "hotpink"});
+//  m.render();
+//
+//  var food = new Food({map: m});
+//  food.render();
+//
+//  var snake = new Snake({map: m});
+////  snake.render();
+//
+//  var timer = setInterval(function () {
+//    m.map.innerHTML = "";
+//    food.render();
+//    snake.render();
+//    snake.move();
+//    //碰撞检测
+//    impact();
+//    gameOver();
+//  }, 500);
+//  //用户控制
+//  window.onkeydown = function (e) {
+//    switch (e.keyCode) {
+//      case 37:
+//        snake.direction = "left";
+//        break;
+//      case 38:
+//        snake.direction = "up";
+//        break;
+//      case 39:
+//        snake.direction = "right";
+//        break;
+//      case 40:
+//        snake.direction = "down";
+//        break;
+//    }
+//  };
+//  //碰撞检测
+//  function impact() {
+//    var head = snake.body[0];
+//    if (head.x == food.x && head.y == food.y) {
+//      snake.eat();
+//      food.setPos()
+//    }
+//  }
+//  function gameOver() {
+//    var head = snake.body[0];
+//    if(head.x<0||head.y<0||head.x> m.col-1||head.y> m.row-1){
+//      clearInterval(timer);
+//      alert("gameover");
+//    }
+//  }
+
+</script>
+
+</body>
+</html>
